@@ -1,12 +1,14 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+import dotenv from "dotenv'
+  dotenv.config()
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAzH0R2Iw5u0k1OCeUwgabzsPVV49Yy2uM",
+  apiKey: process.env.GOOGLE_API_KEY,
   authDomain: "hackathon1-a3ee1.firebaseapp.com",
   projectId: "hackathon1-a3ee1",
   storageBucket: "hackathon1-a3ee1.firebasestorage.app",
@@ -17,4 +19,5 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app)
+
 export {app,auth}
