@@ -54,6 +54,7 @@ This project contains two major modules:
 - MongoDB installed locally or cloud DB (like Atlas)
 
 #backend api https://ayur-poshana-backend.onrender.com
+# frontend url https://snazzy-rugelach-6f2771.netlify.app/
 
 ---
 
