@@ -53,6 +53,8 @@ This project contains two major modules:
 - npm or yarn  
 - MongoDB installed locally or cloud DB (like Atlas)
 
+#backend api https://ayur-poshana-backend.onrender.com
+
 ---
 
 
